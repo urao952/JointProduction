@@ -14,7 +14,6 @@ h1{
     margin: 0;
     padding: 0;
     background-color: #FBE251;
-    position: fixed;
 }
 .hamburger {
   display : block;
