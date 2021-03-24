@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>アラーム設定</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $('.hamburger').click(function () {
+                $(this).toggleClass('active');
+
+                if ($(this).hasClass('active')) {
+                    $('.globalMenuSp').addClass('active');
+                } else {
+                    $('.globalMenuSp').removeClass('active');
+                }
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <br><br>
+    <div class="container">
+        <section class="area">
+            <div class="site-header">
+                <div class="title">
+                    <h1>Sleepon</h1>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav class="globalMenuSp">
+                    <ul>
+                        <li><a href="#">Menu1</a></li>
+                        <li><a href="#">Menu2</a></li>
+                        <li><a href="#">Menu3</a></li>
+                        <li><a href="#">Menu4</a></li>
+                        <li><a href="#">Menu5</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="border border-solid">
+                <div class="button-magin">
+                    <h2 class="te">アラーム設定</h2>
+                    <div class="wrap">
+                        <button class="button">音の設定</button>
+                    </div>
+                    <div class="wrap">
+                        <button class="button">時間の設定</button>
+                    </div>
+                </div>
+            </div>
+            <footer class="site-footer">
+                <p><small>Copyright© All Rights Reserved.</small></p>
+            </footer>
+        </section>
+    </div>
+</body>
+
+</html>
