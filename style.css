@@ -7,7 +7,6 @@ h1{
     position: absolute;
     right: 13px;
     top: 9px;
-    /*  */
 }
 
 .site-header{
@@ -188,4 +187,45 @@ nav.globalMenuSp.active {
 .site-footer{
     color: #707070;
     text-align: center;
+}
+
+/*アラーム設定のページ*/
+.te{
+	font-size: 20px;
+	color: white;
+}
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 ;
+}
+
+.button {
+  width: 122px;
+  height: 36px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #FFFFFF;
+  background-color: #FBE251;
+  border:none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+.button-magin{
+	margin: 100px 0 30rem;
 }
