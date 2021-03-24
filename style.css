@@ -226,6 +226,7 @@ nav.globalMenuSp.active {
 .te{
 	font-size: 20px;
 	color: white;
+  text-align: center;
 }
 .wrap {
   height: 100%;
