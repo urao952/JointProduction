@@ -2,9 +2,9 @@
 
 h1{
     color: #2699FB;
-    /* position: fixed; */
-    /* right: 13px; */
-    /* top: 9px; */
+    position: fixed;
+    right: 13px;
+    top: 9px;
     font-size: 25px;
     margin: 10px;
 }
