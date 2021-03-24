@@ -88,6 +88,13 @@ nav.globalMenuSp {
   transition: all 0.6s;
   width: 100%;
 }
+li{
+	display: flex;
+	justify-content: center;
+}
+nav li a span{
+	font-size: 10px;
+}
 
 nav.globalMenuSp ul {
   background: #FBE251;
