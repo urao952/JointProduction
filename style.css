@@ -1,5 +1,143 @@
 @charset "utf-8";
 
-body{
-    color: red;
+h1{
+	color: #2699FB;
+	position: fixed;
+	right: 13px;
+	top: 9px;
+	font-size: 25px;
+}
+.site-header{
+	height: 48px;
+	margin: 0;
+	padding: 0;
+	background-color: #FBE251;
+}
+.hamburger {
+  display : block;
+  position: fixed;
+  z-index : 3;
+  left : 13px;
+  top   : 5px;
+  width : 42px;
+  height: 42px;
+  cursor: pointer;
+  text-align: center;
+}
+.hamburger span {
+  display : block;
+  position: absolute;
+  width   : 30px;
+  height  : 2px ;
+  left    : 6px;
+  background : #2699FB;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition   : 0.3s ease-in-out;
+  transition        : 0.3s ease-in-out;
+}
+.hamburger span:nth-child(1) {
+  top: 8px;
+}
+.hamburger span:nth-child(2) {
+  top: 18px;
+}
+.hamburger span:nth-child(3) {
+  top: 28px;
+  /*width: 15px;*/
+}
+
+/* ナビ開いてる時のボタン */
+.hamburger.active span:nth-child(1) {
+  top : 16px;
+  left: 6px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform   : rotate(-45deg);
+  transform        : rotate(-45deg);
+}
+
+.hamburger.active span:nth-child(2),
+.hamburger.active span:nth-child(3) {
+  top: 16px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform   : rotate(45deg);
+  transform        : rotate(45deg);
+}
+
+nav.globalMenuSp {
+  position: fixed;
+  z-index : 2;
+  top  : 0;
+  left : 0;
+  color: #000;
+  background: #fff;
+  text-align: center;
+  transform: translateY(-100%);
+  transition: all 0.6s;
+  width: 100%;
+}
+
+nav.globalMenuSp ul {
+  background: #FBE251;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+nav.globalMenuSp ul li {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+}
+nav.globalMenuSp ul li:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+nav.globalMenuSp ul li a {
+  display: block;
+  color: #2699FB;
+  padding: 1em 0;
+  text-decoration :none;
+}
+
+/* このクラスを、jQueryで付与・削除する */
+nav.globalMenuSp.active {
+  transform: translateY(0%);
+}
+.container {
+  overflow: auto;
+  scroll-snap-type: y;
+  height: 100vh;
+}
+.area {
+  scroll-snap-align: start;
+  height: 100vh;
+}
+/*.area:nth-child(even) {
+
+}*/
+.area:nth-child(odd) {
+   background  : linear-gradient(to bottom, #4da9f4, #5db5ff, #4accf9 ,#7addff ,#d3f4ff );
+}
+.main_contents{
+	text-align: center;
+}
+ .border {
+	width: 310px;
+	padding: 10px;
+	margin: 20px;
+}
+.border-solid {
+	border: 3px solid #fff;
+}
+.text,p{
+	color: white;
+}
+.text p{
+	font-size: 11px;
+	margin: 0 0 30px 0;
+}
+.big{
+	font-size: 13px;
+	border-bottom: solid 2px yellow;
 }
