@@ -152,9 +152,9 @@ nav.globalMenuSp.active {
 .features{
     background: linear-gradient(to top, #47a6f5,#47a6f5,#4da9f4,#4da9f4, #57b2fd,#57b2fd, #5db5ff,#5db5ff,#43caf7,#43caf7,#4accf9,#4accf9,#6ed7fa,#6ed7fa,#7addff ,#9ee7ff,#c7eefc,#e2f8ff,#fbfeff);
 }
-.features{
+/* .dark-features{
    background  : linear-gradient(to top, #1a3c58,#175A8B, #246596, #3272A3, #407FAF, #4080B0, #4D8BBB, #5997C6, #5B98C7, #67A4D3, #6DAAD8, #7EB9E7, #8CC6F4, #A1D6FE, #BBE1FE, #CFE9FF);
-}
+} */
 .feature1, .feature2, .feature3{
     display: flex;
 }
@@ -284,7 +284,7 @@ border > h2{
 }
 
 /*フレンドのページ */
-.kennsaku{
+.kennsaku,.plof-img,.id-number{
 	margin: 15px 0 ;
 	text-align: center;
 }
@@ -314,6 +314,43 @@ border > h2{
 .plof-wrap button{
 	font-size: 11px;
 }
+
+/* ヘルプページ */
+.help__title{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 60px 0 13px;
+}
+
+.help-contents{
+  padding: 40px 0 97px;
+  font-size: 10px;
+}
+
+.QandA{
+  padding-bottom: 35px;
+}
+
+.help__img{
+  width: 15%;
+  padding: 0 10px 0 10px;
+}
+
+.q__flex{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.a__flex{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+
 /* ダークモード設定
 .light-theme1 {
   background-color: #fff;
