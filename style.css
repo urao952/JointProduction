@@ -137,7 +137,7 @@ nav.globalMenuSp.active {
 
 }*/
 .area:nth-child(odd) {
-   background  : linear-gradient(to bottom, #47a6f5,#4da9f4, #57b2fd, #5db5ff,#43caf7,#4accf9 ,#6ed7fa,#7addff ,#b5dcfc,#c7eefc,#e2f8ff,#fbfeff);
+   background  : linear-gradient(to bottom, #47a6f5,#4da9f4, #57b2fd, #5db5ff,#43caf7,#4accf9 ,#6ed7fa,#7addff ,#96d5fa,#c7eefc,#e2f8ff,#fbfeff);
 }
 .main_contents{
 	text-align: center;
@@ -149,7 +149,7 @@ nav.globalMenuSp.active {
     color: #3D8CCC;
 }
 .features{
-    background: linear-gradient(to top, #47a6f5,#4da9f4, #57b2fd, #5db5ff,#43caf7,#4accf9 ,#6ed7fa,#7addff ,#b5dcfc,#c7eefc,#e2f8ff,#fbfeff);
+    background: linear-gradient(to top, #47a6f5,#4da9f4, #57b2fd, #5db5ff,#43caf7,#4accf9 ,#6ed7fa,#7addff ,#96d5fa,#c7eefc,#e2f8ff,#fbfeff);
 }
  .border {
 	/* width: 310px; */
