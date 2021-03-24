@@ -217,6 +217,9 @@ nav.globalMenuSp.active {
     color: #707070;
     text-align: center;
 }
+.basic1, .basic2, .basic3{
+    display: flex;
+}
 
 /*アラーム設定のページ*/
 .te{
