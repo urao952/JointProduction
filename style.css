@@ -125,7 +125,7 @@ nav.globalMenuSp.active {
 	text-align: center;
 }
  .border {
-	width: 310px;
+	/* width: 310px; */
 	padding: 10px;
 	margin: 20px;
 }
