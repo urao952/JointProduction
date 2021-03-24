@@ -166,7 +166,7 @@ nav.globalMenuSp.active {
 .border-solid {
 	border: 3px solid #fff;
 }
-.text,p{
+.text > p{
 	color: #fff;
 }
 .text p{
@@ -267,12 +267,13 @@ border > h2{
 	margin: 10px 0 ;
 }
 .size12{
-	line-height:20px;
+	line-height:25px;
 	font-size: 12px;
 	text-align: center;
 }
 .size14{
 	font-size: 14px;
+  text-align: center;
 }
 .news-contents{
 	text-align: center;
@@ -281,6 +282,7 @@ border > h2{
 }
 .news-contents a p{
 	margin: 15px 0;
+
 }
 
 /*フレンドのページ */
