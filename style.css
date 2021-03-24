@@ -130,7 +130,7 @@ nav.globalMenuSp.active {
 
 }*/
 .area:nth-child(odd) {
-   background  : linear-gradient(to bottom, #4da9f4, #5db5ff, #4accf9 ,#7addff ,#d3f4ff ,#EAF5FD ,#fff ,#EAF5FD ,#d3f4ff ,#7addff ,#4accf9 ,#5db5ff ,#4da9f4);
+   background  : linear-gradient(to bottom, #4da9f4, #5db5ff, #4accf9 ,#7addff ,#d3f4ff ,#EAF5FD);
 }
 .main_contents{
 	text-align: center;
