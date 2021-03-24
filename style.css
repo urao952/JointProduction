@@ -2,9 +2,9 @@
 
 h1{
     color: #2699FB;
-    position: fixed;
-    right: 13px;
-    top: 9px;
+    /* position: fixed; */
+    /* right: 13px; */
+    /* top: 9px; */
     font-size: 25px;
     margin: 10px;
 }
@@ -14,13 +14,17 @@ h1{
     margin: 0;
     padding: 0;
     background-color: #FBE251;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
 }
 .hamburger {
   display : block;
-  position: fixed;
   z-index : 3;
-  left : 13px;
-  top   : 5px;
+  /* left : 13px; */
+  /* top   : 5px; */
   width : 42px;
   height: 42px;
   cursor: pointer;
