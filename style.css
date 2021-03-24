@@ -128,7 +128,7 @@ nav.globalMenuSp.active {
 }
 .main_contents{
 	text-align: center;
-        margin-top: 48px;
+    /* ヘッダーに埋もれるので要素の頭に隙間を作る？ */
 }
  .border {
 	/* width: 310px; */
