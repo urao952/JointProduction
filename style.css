@@ -151,6 +151,9 @@ nav.globalMenuSp.active {
 .features{
     background: linear-gradient(to top, #47a6f5,#4da9f4, #57b2fd, #5db5ff,#43caf7,#4accf9 ,#6ed7fa,#7addff ,#96d5fa,#c7eefc,#e2f8ff,#fbfeff);
 }
+.feature1 .feature2 .feature3{
+    display: flex;
+}
  .border {
 	/* width: 310px; */
 	padding: 10px;
@@ -250,4 +253,28 @@ nav.globalMenuSp.active {
 }
 .button-margin{
 	margin: 100px 0 30rem;
+}
+
+/*朝の活読のページ*/
+h2{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin: 10px 0 ;
+}
+.size12{
+	line-height:20px;
+	font-size: 12px;
+	text-align: center;
+}
+.size14{
+	font-size: 14px;
+}
+.news-contents{
+	text-align: center;
+	margin: 20px 0 15rem;
+	font-size: 12px;
+}
+.news-contents a p{
+	margin: 15px 0;
 }
