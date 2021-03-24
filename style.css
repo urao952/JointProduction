@@ -1,5 +1,13 @@
 @charset "utf-8";
-
+/* ダークモード設定 */
+.light-theme {
+  background: #fff;
+  color: #333;
+}
+.dark-theme {
+  background: #000;
+  color: #ddd
+}
 h1{
     color: #2699FB;
     /* position: fixed;*/
@@ -8,7 +16,6 @@ h1{
     right: 13px;
     top: 9px;
 }
-
 .site-header{
     height: 48px;
     margin: 0;
