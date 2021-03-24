@@ -334,6 +334,10 @@ border > h2{
   font-size: 10px;
 }
 
+.help-contents p{
+  color: #ffffff;
+}
+
 .QandA{
   padding-bottom: 35px;
 }
