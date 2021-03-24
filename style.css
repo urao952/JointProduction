@@ -145,16 +145,16 @@ nav.globalMenuSp.active {
 .contents{
     color: #3D8CCC;
 }
-.basics .basictext{
+.basics , .basictext{
     color: #3D8CCC;
 }
 .features{
     background: linear-gradient(to top, #47a6f5,#47a6f5,#4da9f4,#4da9f4, #57b2fd,#57b2fd, #5db5ff,#5db5ff,#43caf7,#43caf7,#4accf9,#4accf9,#6ed7fa,#6ed7fa,#7addff ,#9ee7ff,#c7eefc,#e2f8ff,#fbfeff);
 }
-.feature1 .feature2 .feature3{
+.feature1, .feature2, .feature3{
     display: flex;
 }
- .border {
+.border {
 	/* width: 310px; */
 	padding: 10px;
 	margin: 20px;
