@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Sleepon</title>
+    <title>プロフィール</title>
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -26,12 +26,15 @@
 
 </head>
 
-<body class="light-theme1">
+<body>
+    <br><br>
     <div class="container">
         <section class="area">
             <div class="site-header">
                 <div class="title">
-                    <h1>Sleepon</h1>
+                    <a href="index.html">
+                        <h1>Sleepon</h1>
+                    </a>
                 </div>
                 <div class="hamburger">
                     <span></span>
@@ -40,128 +43,41 @@
                 </div>
                 <nav class="globalMenuSp">
                     <ul>
-                        <li>
-                            <a href="alarm.html">
-                                <img src="images/bell.png" alt="#">Alarm<br>アラーム設定
-                            </a>
+                        <li><a href="alarm.html"><img src="images/bell.png" alt=""><span>Alarm<br>アラーム設定</span></a></li>
+                        <li><a href="profile.html"><img src="images/profile.png"
+                                    alt=""><span>Profile<br>プロフィール</span></a></li>
+                        <li><a href="friend.html"><img src="images/friend.png" alt=""><span>Friend<br>フレンド</span></a>
                         </li>
-                        <li>
-                            <a href="profile.html">
-                                <img src="images/profile.png" alt="#">Profile<br>プロフィール</a>
+                        <li><a href="#"><img src="images/lite.png" alt=""><span>Screenz<br>ダークモード</span></a></li>
+                        <li><a href="news.html"><img src="images/phone.png" alt=""><span>Newspaper<br>朝の活読</span></a>
                         </li>
-                        <li>
-                            <a href="friend.html">
-                                <img src="images/friend.png" alt="#">Friend<br>フレンド</a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/lightbulb.png" alt="#">Screen<br>ダークモード</a>
-                        </li>
-                        <li>
-                            <a href="news.html">
-                                <img src="images/phone.png" alt="#">Newspaper<br>朝の活読</a>
-                        </li>
-                        <li>
-                            <a href="help.html">
-                                <img src="images/help.png" alt="#">Help<br>ヘルプ</a>
-                        </li>
+                        <li><a href="#"><img src="images/Help.png" alt=""><span>Help<br>ヘルプ</span></a></li>
                     </ul>
                 </nav>
             </div>
             <div class="headerback"></div>
-            <div class="main_contents">
-                <div class="border border-solid">
-                    <div class="item">
-                        <img src="images/topimg.png" alt="#">
-                        <a href="#"><img src="images/topimg2.png" alt="#"></a>
-                    </div>
-                    <div class="text">
-                        <h2>ようこそ</h2>
-                        <p>Sleeponでは貴方の起床のサポートをさせて頂きます。<br>
-                            <span class="big"> ”起きれないを克服する”がコンセプト</span><br>
-                            そんな貴方にSleeponから最高のサポートを
-                        </p>
-                    </div>
-                    <div class="item">
-                        <img src="images/Let's.png" alt="#">
-                    </div>
+            <div class="border border-solid">
+                <h2>プロフィール</h2>
+                <p class="size12">貴方の情報を入れましょう。</p>
+                <div class="plof-img">
+                    <img src="images/plof-icon.png" alt="">
                 </div>
-            </div>
-        </section>
-        <section class="area">
-            <div class="contents">
-                <hr class="hr-text" data-content="Sleeponって何？">
-                <p class="ao">
-                    『自分で起きなきゃいけないから寝坊出来ない』<br>
-                    少し変わったアラームアプリSleepon！<br>
-                    一人でも、友人と一緒
+                <div class="id-number">
+                    <img src="images/id.png" alt="">
+                </div>
+                <p class="size12">名前 - 徹夜のお兄さん<br>
+                    フレンド数 - 5人<br>
+                    目標 - 在宅ワークでもしっかりした生活習慣を
                 </p>
-                <hr class="hr-text">
-                <div class="basics">
-                    <p class="basicsetting">基本設定</p>
-                    <div class="basic1">
-                        <p><img src="images/menucircle.png" alt="#"></p>
-                        <div class="basictext">
-                            <h2>Step 01.</h2>
-                            <p>メニューを開いてみましょう。
-                                画面左上の三本線からメニューが開きます。</p>
-                        </div>
-                    </div>
-                    <div class="basic2">
-                        <p><img src="images/bellcircle.png" alt="#"></p>
-                        <div class="basictext">
-                            <h2>Step 02.</h2>
-                            <p>早速アラームを設定してみましょう！
-                                メニューからアラーム設定ができます。</p>
-                        </div>
-                    </div>
-                    <div class="basic3">
-                        <p><img src="images/mancircle.png" alt="#"></p>
-                        <div class="basictext">
-                            <h2>Step 03.</h2>
-                            <p>メニューからフレンドを選択し
-                                友達や知り合いを追加してみましょう。</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="features">
-                    <p class="featureexplain">機能説明</p>
-                    <p>Sleeponの基本機能を紹介します。</p>
-                    <div class="feature1">
-                        <p><img src="images/f1.png" alt="#"></p>
-                        <div>
-                            <p><span>01</span>Alarm</p>
-                            <p>アラーム音をお好みで</p>
-                            <p>貴方が一番起きられる音を選びましょう。</p>
-                        </div>
-                    </div>
-                    <div class="feature2">
-                        <p><img src="images/f2.png" alt="#"></p>
-                        <div>
-                            <p><span>02</span>Cooperation</p>
-                            <p>フレンド機能</p>
-                            <p>フレンド機能を使って友達と協力して
-                                起きる！両方がアラームを止めるまで
-                                鳴りやまない機能を搭載！</p>
-                        </div>
-                    </div>
-                    <div class="feature3">
-                        <p><img src="images/f3.png" alt="#"></p>
-                        <div>
-                            <p><span>03</span>News paper</p>
-                            <p>朝イチでニュースをチェック</p>
-                            <p>眠気が覚めないあなたに
-                                ニュースを読んで頭を働かせましょう！</p>
-                        </div>
-                    </div>
+                <div class="plof-wrap">
+                    <a href="index.html"><button class="button">ホームへ戻る</button></a>
                 </div>
             </div>
+            <footer class="site-footer">
+                <p><small>Copyright© All Rights Reserved.</small></p>
+            </footer>
         </section>
     </div>
-    <footer class="site-footer">
-        <p><small>Copyright© All Rights Reserved.</small></p>
-    </footer>
 </body>
-<!--  -->
 
 </html>

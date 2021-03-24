@@ -137,6 +137,9 @@ nav.globalMenuSp.active {
 .area:nth-child(odd) {
    background  : linear-gradient(to bottom, #47a6f5,#4da9f4, #57b2fd, #5db5ff,#43caf7,#4accf9 ,#6ed7fa,#7addff ,#9ee7ff,#c7eefc,#e2f8ff,#fbfeff);
 }
+.dark-area:nth-child(odd) {
+   background  : linear-gradient(to bottom, #1a3c58,#175A8B, #246596, #3272A3, #407FAF, #4080B0, #4D8BBB, #5997C6, #5B98C7, #67A4D3, #6DAAD8, #7EB9E7, #8CC6F4, #A1D6FE, #BBE1FE, #bad3e9);
+}
 .main_contents{
 	text-align: center;
 }
@@ -148,6 +151,9 @@ nav.globalMenuSp.active {
 }
 .features{
     background: linear-gradient(to top, #47a6f5,#47a6f5,#4da9f4,#4da9f4, #57b2fd,#57b2fd, #5db5ff,#5db5ff,#43caf7,#43caf7,#4accf9,#4accf9,#6ed7fa,#6ed7fa,#7addff ,#9ee7ff,#c7eefc,#e2f8ff,#fbfeff);
+}
+.features{
+   background  : linear-gradient(to top, #1a3c58,#175A8B, #246596, #3272A3, #407FAF, #4080B0, #4D8BBB, #5997C6, #5B98C7, #67A4D3, #6DAAD8, #7EB9E7, #8CC6F4, #A1D6FE, #BBE1FE, #CFE9FF);
 }
 .feature1, .feature2, .feature3{
     display: flex;
@@ -207,7 +213,7 @@ nav.globalMenuSp.active {
 	margin: 15px 0;
 	font-size: 11px;
 }
-.site-footer{
+.site-footer p {
     color: #707070;
     text-align: center;
 }
@@ -292,20 +298,37 @@ border > h2{
 .friend-img img{
 	margin: 5px 0;
 }
-/* ダークモード設定 */
+
+/*プロフィールのページ*/
+
+.plof-img{
+	margin: 33px 0 0;
+}
+.plof-wrap{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0 9rem; ;
+}
+.plof-wrap button{
+	font-size: 11px;
+}
+/* ダークモード設定
 .light-theme1 {
-  background: #fff;
+  background-color: #fff;
   color: #fff;
 }
 .light-theme2 {
-  background: #fff;
+  background-color: #fff;
   color: #3D8CCC;
 }
 .dark-theme1 {
-  background: #000;
-  color: #ddd
+  background-color: #CFE9FF;
+  color: #fff
 }
 .dark-theme2 {
-  background: #000;
-  color: #ddd
-}
+  background-color: #CFE9FF;
+  color: #3D8CCC;
+   ↑aliceblue
+} */
