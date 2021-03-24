@@ -278,3 +278,19 @@ border > h2{
 .news-contents a p{
 	margin: 15px 0;
 }
+
+/*フレンドのページ */
+.kennsaku{
+	margin: 15px 0 ;
+	text-align: center;
+}
+.kennsaku img{
+	margin: 5px 0 10px;
+}
+.friend-img{
+	text-align: center;
+	margin: 0 0 7rem;
+}
+.friend-img img{
+	margin: 5px 0;
+}
