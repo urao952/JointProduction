@@ -137,7 +137,7 @@ nav.globalMenuSp.active {
 
 }*/
 .area:nth-child(odd) {
-   background  : linear-gradient(to bottom, #4da9f4, #5db5ff, #4accf9 ,#7addff ,#d3f4ff ,#EAF5FD );
+   background  : linear-gradient(to bottom, #4da9f4, #5db5ff, #4accf9 ,#7addff ,#d3f4ff);
 }
 .main_contents{
 	text-align: center;
@@ -165,7 +165,8 @@ nav.globalMenuSp.active {
 }
 .big{
 	font-size: 13px;
-	border-bottom: solid 2px yellow;
+	/* border-bottom: solid 2px yellow; */
+    background: linear-gradient(transparent 50%, #DBDA7F 50%);
 }
 .hr-text {
 	line-height: 1em;
