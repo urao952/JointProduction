@@ -143,3 +143,7 @@ nav.globalMenuSp.active {
 	font-size: 13px;
 	border-bottom: solid 2px yellow;
 }
+
+.site-footer{
+    color: #707070;
+}
