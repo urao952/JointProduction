@@ -1,19 +1,20 @@
 @charset "utf-8";
 
 h1{
-	color: #2699FB;
-	position: fixed;
-	right: 13px;
-	top: 9px;
-	font-size: 25px;
+    color: #2699FB;
+    position: fixed;
+    right: 13px;
+    top: 9px;
+    font-size: 25px;
     margin: 10px;
 }
 
 .site-header{
-	height: 48px;
-	margin: 0;
-	padding: 0;
-	background-color: #FBE251;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+    background-color: #FBE251;
+    display: flex;
     position: fixed;
 }
 .hamburger {
