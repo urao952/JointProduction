@@ -2,7 +2,7 @@
 
 h1{
     color: #2699FB;
-    /* position: fixed; .*/
+    /* position: fixed;*/
     font-size: 25px;
     position: absolute;
     right: 13px;
@@ -136,6 +136,9 @@ nav.globalMenuSp.active {
 	text-align: center;
 }
 .contents{
+    color: #3D8CCC;
+}
+.basics{
     color: #3D8CCC;
 }
  .border {
