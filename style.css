@@ -24,8 +24,9 @@ h1{
 .hamburger {
   display : block;
   z-index : 3;
-  /* left : 13px; */
-  /* top   : 5px; */
+  position: absolute;
+  left : 13px;
+  top   : 5px;
   width : 42px;
   height: 42px;
   cursor: pointer;
