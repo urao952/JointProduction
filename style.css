@@ -1,13 +1,4 @@
 @charset "utf-8";
-/* ダークモード設定 */
-.light-theme {
-  background: #fff;
-  color: #333;
-}
-.dark-theme {
-  background: #000;
-  color: #ddd
-}
 h1{
     color: #2699FB;
     /* position: fixed;*/
@@ -300,4 +291,21 @@ border > h2{
 }
 .friend-img img{
 	margin: 5px 0;
+}
+/* ダークモード設定 */
+.light-theme1 {
+  background: #fff;
+  color: #fff;
+}
+.light-theme2 {
+  background: #fff;
+  color: #3D8CCC;
+}
+.dark-theme1 {
+  background: #000;
+  color: #ddd
+}
+.dark-theme2 {
+  background: #000;
+  color: #ddd
 }
