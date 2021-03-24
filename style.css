@@ -79,7 +79,6 @@ nav.globalMenuSp {
   top  : 0;
   left : 0;
   color: #000;
-
   background: #fff;
   text-align: center;
   transform: translateY(-100%);
@@ -157,6 +156,7 @@ nav.globalMenuSp.active {
 } */
 .feature1, .feature2, .feature3{
     display: flex;
+     margin: 20px 38px;
 }
 .border {
 	/* width: 310px; */
@@ -219,6 +219,7 @@ nav.globalMenuSp.active {
 }
 .basic1, .basic2, .basic3{
     display: flex;
+    margin: 31px 38px;
 }
 
 /*アラーム設定のページ*/
