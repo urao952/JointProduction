@@ -127,9 +127,7 @@ nav.globalMenuSp.active {
 }
 .main_contents{
 	text-align: center;
-}
-.main_contents::before{
-    margin: 48px;
+        margin: 48px;
 }
  .border {
 	/* width: 310px; */
